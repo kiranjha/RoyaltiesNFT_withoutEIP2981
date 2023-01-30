@@ -4,6 +4,9 @@ pragma solidity ^0.8.6;
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
+// erc721
+// common/erc2981
+
 contract NFT is ERC721 {
     address public artist;
     address public txFeeToken;
